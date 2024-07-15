@@ -1,0 +1,28 @@
+PS D:\SQL\Gitdemo> cd LocalRepo
+PS D:\SQL\Gitdemo\LocalRepo> git status
+On branch main
+nothing to commit, working tree clean
+PS D:\SQL\Gitdemo\LocalRepo> git branch
+* main
+PS D:\SQL\Gitdemo\LocalRepo> git checkout -b feature1
+Switched to a new branch 'feature1'
+PS D:\SQL\Gitdemo\LocalRepo> git branch
+* feature1
+  main
+PS D:\SQL\Gitdemo\LocalRepo> git checkout main
+Switched to branch 'main'
+PS D:\SQL\Gitdemo\LocalRepo> git branch
+  feature1
+* main
+PS D:\SQL\Gitdemo\LocalRepo> git checkout -b feature2
+Switched to a new branch 'feature2'
+PS D:\SQL\Gitdemo\LocalRepo> git branch
+  feature1
+* feature2
+  main
+PS D:\SQL\Gitdemo\LocalRepo> git checkout main
+Switched to branch 'main'
+PS D:\SQL\Gitdemo\LocalRepo> git branch -d feature2
+Deleted branch feature2 (was fdc8e8c).
+
+Feature1 Branch Information
