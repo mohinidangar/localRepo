@@ -23,4 +23,5 @@ PS D:\SQL\Gitdemo\LocalRepo> git branch
 PS D:\SQL\Gitdemo\LocalRepo> git checkout main
 Switched to branch 'main'
 PS D:\SQL\Gitdemo\LocalRepo> git branch -d feature2
-Deleted branch feature2 (was fdc8e8c).
+
+
